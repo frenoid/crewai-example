@@ -20,7 +20,14 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+Make a new `.env` file
+```bash
+
+cp .env.example .env
+```
+
+
+**Add your `OPENAI_API_KEY` and `SERPER_API_KEY` into the `.env` file**
 
 - Modify `src/latest_ai_development/config/agents.yaml` to define your agents
 - Modify `src/latest_ai_development/config/tasks.yaml` to define your tasks
